@@ -36,11 +36,11 @@ Sa courbe d'apprentissage nécessite un effort au début mais le retour d'invest
 # Tips & Tricks Vim
 
 * Afficher les numéros des lignes, allez à une ligne
-* Comment enregistrer (y compris sans être root un fichier lui appartenant)
+* Enregistrer
 * Undo
-* Copier-coller
 * Cherchez, remplacer
-* Rappels des commandes (q:ou )
+* Historiques des commandes (q:ou q? en mode normal )
+* ggVGy => Copier toutes les lignes
 * De l'aide (:help oud help command )
 
 ---
@@ -65,6 +65,8 @@ Sa courbe d'apprentissage nécessite un effort au début mais le retour d'invest
 * Indenter,copier-coller avec Visual Mode
 => mode Visual Character et > (avance) ou <(retrait)
 => mode Visual Block et I/D
+
+* g CTRL G => compter les mots
 * Ouvrir des fenêtres  Vertical Split :vs  et :sp
 * Enregistrer une macro a (qa/@a)
 
@@ -80,5 +82,46 @@ sudo update-alternatives --config editor
 export SYSTEMD_EDITOR=vim
 ```
 
+* Comment enregistrer (y compris sans être root un fichier lui appartenant=> :w !sudo tee %
+
 * .vimrc afin de paramétrer (plugins)
 
+---
+
+# Tips & Tricks Vim (4)
+
+* %norm A, => Ajouter en fin de ligne une virgule
+* SPACE SPACE W => plugin easy motion
+
+---
+
+# Vim EasterEggs
+
+(cherchez !)
+
+                               oooo$$$$$$$$$$$$oooo
+                          oo$$$$$$$$$$$$$$$$$$$$$$$$o
+                       oo$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$o         o$   $$ o$
+     o $ oo          o$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$o       $$ $$ $$o$
+    oo $ $ "$      o$$$$$$$$$    $$$$$$$$$$$$$    $$$$$$$$$o       $$$o$$o$
+    "$$$$$$o$     o$$$$$$$$$      $$$$$$$$$$$      $$$$$$$$$$o    $$$$$$$$
+      $$$$$$$    $$$$$$$$$$$      $$$$$$$$$$$      $$$$$$$$$$$$$$$$$$$$$$$
+      $$$$$$$$$$$$$$$$$$$$$$$    $$$$$$$$$$$$$    $$$$$$$$$$$$$$  """$$$
+       "$$$""""$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$     "$$$
+        $$$   o$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$     "$$$o
+       o$$"   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$       $$$o
+       $$$    $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" "$$$$$$ooooo$$$$o
+      o$$$oooo$$$$$  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$   o$$$$$$$$$$$$$$$$$
+      $$$$$$$$"$$$$   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$     $$$$""""""""
+     """"       $$$$    "$$$$$$$$$$$$$$$$$$$$$$$$$$$$"      o$$$
+                "$$$o     """$$$$$$$$$$$$$$$$$$"$$"         $$$
+                  $$$o          "$$""$$$$$$""""           o$$$
+                   $$$$o                                o$$$"
+                    "$$$$o      o$$$$$$o"$$$$o        o$$$$
+                      "$$$$$oo     ""$$$$o$$$$$o   o$$$$""
+                         ""$$$$$oooo  "$$$o$$$$$$$$$"""
+                            ""$$$$$$$oo $$$$$$$$$$
+                                    """"$$$$$$$$$$$
+                                        $$$$$$$$$$$$
+                                         $$$$$$$$$$"
+                                          "$$$""""
