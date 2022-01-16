@@ -99,6 +99,8 @@ export SYSTEMD_EDITOR=vim
 
 (cherchez !)
 
+```text
+
                                oooo$$$$$$$$$$$$oooo
                           oo$$$$$$$$$$$$$$$$$$$$$$$$o
                        oo$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$o         o$   $$ o$
@@ -125,3 +127,4 @@ export SYSTEMD_EDITOR=vim
                                         $$$$$$$$$$$$
                                          $$$$$$$$$$"
                                           "$$$""""
+```
